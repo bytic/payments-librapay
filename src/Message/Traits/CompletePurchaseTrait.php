@@ -2,8 +2,8 @@
 
 namespace ByTIC\Payments\Librapay\Message\Traits;
 
-use ByTIC\Payments\AbstractGateway\Message\Traits\HasGatewayRequestTrait;
-use ByTIC\Payments\AbstractGateway\Message\Traits\HasModelRequest;
+use ByTIC\Payments\Gateways\Providers\AbstractGateway\Message\Traits\HasGatewayRequestTrait;
+use ByTIC\Payments\Gateways\Providers\AbstractGateway\Message\Traits\HasModelRequest;
 use ByTIC\Payments\Librapay\Gateway;
 use ByTIC\Payments\Librapay\Helper;
 
