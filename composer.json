@@ -13,7 +13,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "ByTIC\\Payments\\Mobilpay\\": "src/"
+      "ByTIC\\Payments\\Librapay\\": "src/"
     }
   },
   "autoload-dev": {
