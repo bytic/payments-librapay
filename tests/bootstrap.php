@@ -1,7 +1,7 @@
 <?php
 
 $configData =  [
-        'gateways' => ['Librapay']
+    'gateways' => ['Librapay']
 ];
 
-require './vendor/bytic/payments-tests/src/boostrap/bootstrap.php';
+require __DIR__.'/../vendor/bytic/payments-tests/src/boostrap/bootstrap.php';

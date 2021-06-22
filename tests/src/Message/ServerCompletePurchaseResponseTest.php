@@ -16,13 +16,24 @@ class ServerCompletePurchaseResponseTest extends AbstractTest
 {
     use ServerCompletePurchaseResponseTrait;
 
+    public function test_send()
+    {
+        $response = $this->getNewResponse(
+            [
+                'notification' => ['rc' => '00']
+            ]
+        );
+
+        static::assertSame('1', $response->getContent());
+    }
+
     /**
      * @return ServerCompletePurchaseResponse
      */
-    protected function getNewResponse()
+    protected function getNewResponse($data = [])
     {
         $request = new ServerCompletePurchaseRequest($this->client, new Request());
 
-        return new ServerCompletePurchaseResponse($request, []);
+        return new ServerCompletePurchaseResponse($request, $data);
     }
 }
