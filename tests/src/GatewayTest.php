@@ -1,16 +1,16 @@
 <?php
 
-namespace ByTIC\Payments\Librapay\Tests;
+namespace Paytic\Payments\Librapay\Tests;
 
 use ByTIC\Omnipay\Librapay\Message\ServerCompletePurchaseResponse;
 use ByTIC\Payments\Gateways\Providers\Librapay\Gateway;
-use ByTIC\Payments\Librapay\Tests\Fixtures\Records\LibrapayMethodData;
+use Paytic\Payments\Librapay\Tests\Fixtures\Records\LibrapayMethodData;
 use ByTIC\Payments\Tests\Fixtures\Records\PaymentMethods\PaymentMethod;
 use ByTIC\Payments\Tests\Gateways\GatewayTest as AbstractGatewayTest;
 
 /**
  * Class GatewayTest
- * @package ByTIC\Payments\Librapay\Tests
+ * @package Paytic\Payments\Librapay\Tests
  */
 class GatewayTest extends AbstractGatewayTest
 {

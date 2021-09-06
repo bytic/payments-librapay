@@ -1,13 +1,13 @@
 <?php
 
-namespace ByTIC\Payments\Librapay\Message;
+namespace Paytic\Payments\Librapay\Message;
 
 use ByTIC\Omnipay\Librapay\Message\CompletePurchaseRequest as AbstractCompletePurchaseRequest;
-use ByTIC\Payments\Librapay\Message\Traits\CompletePurchaseTrait;
+use Paytic\Payments\Librapay\Message\Traits\CompletePurchaseTrait;
 
 /**
  * Class PurchaseResponse
- * @package ByTIC\Payments\Librapay\Message
+ * @package Paytic\Payments\Librapay\Message
  */
 class CompletePurchaseRequest extends AbstractCompletePurchaseRequest
 {

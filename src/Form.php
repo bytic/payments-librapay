@@ -1,6 +1,6 @@
 <?php
 
-namespace ByTIC\Payments\Librapay;
+namespace Paytic\Payments\Librapay;
 
 use ByTIC\Payments\Gateways\Providers\AbstractGateway\Form as AbstractForm;
 

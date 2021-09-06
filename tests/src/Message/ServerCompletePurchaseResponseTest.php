@@ -1,6 +1,6 @@
 <?php
 
-namespace ByTIC\Payments\Librapay\Tests\Message;
+namespace Paytic\Payments\Librapay\Tests\Message;
 
 use ByTIC\Payments\Gateways\Providers\Librapay\Message\ServerCompletePurchaseRequest;
 use ByTIC\Payments\Gateways\Providers\Librapay\Message\ServerCompletePurchaseResponse;
@@ -10,7 +10,7 @@ use Symfony\Component\HttpFoundation\Request;
 
 /**
  * Class ServerCompletePurchaseResponseTest
- * @package ByTIC\Payments\Librapay\Tests\Message
+ * @package Paytic\Payments\Librapay\Tests\Message
  */
 class ServerCompletePurchaseResponseTest extends AbstractTest
 {

@@ -1,10 +1,10 @@
 {
-  "name": "bytic/payments-librapay",
+  "name": "paytic/payments-librapay",
   "type": "library",
   "license": "MIT",
   "description": "Payments module for bytic library for librapay",
   "keywords": [],
-  "homepage": "https://github.com/bytic/payments-librapay",
+  "homepage": "https://github.com/paytic/payments-librapay",
   "authors": [
     {
       "name": "Gabriel Solomon",
@@ -13,18 +13,18 @@
   ],
   "autoload": {
     "psr-4": {
-      "ByTIC\\Payments\\Librapay\\": "src/"
+      "Paytic\\Payments\\Librapay\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "ByTIC\\Payments\\Librapay\\Tests\\": "tests/src",
-      "ByTIC\\Payments\\Librapay\\Tests\\Fixtures\\": "tests/fixtures"
+      "Paytic\\Payments\\Librapay\\Tests\\": "tests/src",
+      "Paytic\\Payments\\Librapay\\Tests\\Fixtures\\": "tests/fixtures"
     }
   },
   "require": {
     "php": "^7.2|^8.0",
-    "bytic/omnipay-librapay": "^2.0|^3.0"
+    "paytic/omnipay-librapay": "^2.0|^3.0"
   },
   "require-dev": {
     "ext-zlib": "*",

@@ -1,16 +1,16 @@
 <?php
 
-namespace ByTIC\Payments\Librapay;
+namespace Paytic\Payments\Librapay;
 
 use ByTIC\Omnipay\Librapay\Gateway as AbstractGateway;
 use ByTIC\Payments\Gateways\Providers\AbstractGateway\Traits\GatewayTrait;
 use ByTIC\Payments\Gateways\Providers\AbstractGateway\Traits\OverwriteServerCompletePurchaseTrait;
-use ByTIC\Payments\Librapay\Message\PurchaseRequest;
+use Paytic\Payments\Librapay\Message\PurchaseRequest;
 use Omnipay\Common\Message\RequestInterface;
 
 /**
  * Class Gateway
- * @package ByTIC\Payments\Librapay
+ * @package Paytic\Payments\Librapay
  * @method \Omnipay\Common\Message\NotificationInterface acceptNotification(array $options = array())
  * @method \Omnipay\Common\Message\RequestInterface fetchTransaction(array $options = [])
  */

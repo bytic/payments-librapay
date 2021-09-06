@@ -1,13 +1,13 @@
 <?php
 
-namespace ByTIC\Payments\Librapay\Message;
+namespace Paytic\Payments\Librapay\Message;
 
 use ByTIC\Omnipay\Librapay\Message\PurchaseRequest as AbstractRequest;
-use ByTIC\Payments\Librapay\Helper;
+use Paytic\Payments\Librapay\Helper;
 
 /**
  * Class PurchaseResponse
- * @package ByTIC\Payments\Librapay\Message
+ * @package Paytic\Payments\Librapay\Message
  */
 class PurchaseRequest extends AbstractRequest
 {

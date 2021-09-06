@@ -1,13 +1,13 @@
 <?php
 
-namespace ByTIC\Payments\Librapay\Tests;
+namespace Paytic\Payments\Librapay\Tests;
 
 use ByTIC\Payments\Gateways\Providers\Librapay\Helper;
 use ByTIC\Payments\Tests\AbstractTest;
 
 /**
  * Class HelperTest
- * @package ByTIC\Payments\Librapay\Tests
+ * @package Paytic\Payments\Librapay\Tests
  */
 class HelperTest extends AbstractTest
 {
