@@ -2,7 +2,7 @@
 
 namespace Paytic\Payments\Librapay;
 
-use ByTIC\Omnipay\Librapay\Gateway as AbstractGateway;
+use Paytic\Omnipay\Librapay\Gateway as AbstractGateway;
 use ByTIC\Payments\Gateways\Providers\AbstractGateway\Traits\GatewayTrait;
 use ByTIC\Payments\Gateways\Providers\AbstractGateway\Traits\OverwriteServerCompletePurchaseTrait;
 use Paytic\Payments\Librapay\Message\PurchaseRequest;

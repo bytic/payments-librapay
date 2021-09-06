@@ -2,7 +2,7 @@
 
 namespace Paytic\Payments\Librapay\Message;
 
-use ByTIC\Omnipay\Librapay\Message\PurchaseResponse as AbstractResponse;
+use Paytic\Omnipay\Librapay\Message\PurchaseResponse as AbstractResponse;
 
 /**
  * Class PurchaseResponse

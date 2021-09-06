@@ -2,7 +2,7 @@
 
 namespace Paytic\Payments\Librapay\Message;
 
-use ByTIC\Omnipay\Librapay\Message\ServerCompletePurchaseResponse as AbstractServerCompletePurchaseResponse;
+use Paytic\Omnipay\Librapay\Message\ServerCompletePurchaseResponse as AbstractServerCompletePurchaseResponse;
 use ByTIC\Payments\Gateways\Providers\AbstractGateway\Message\Traits\CompletePurchaseResponseTrait;
 
 /**

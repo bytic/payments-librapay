@@ -2,7 +2,7 @@
 
 namespace Paytic\Payments\Librapay\Message;
 
-use ByTIC\Omnipay\Librapay\Message\PurchaseRequest as AbstractRequest;
+use Paytic\Omnipay\Librapay\Message\PurchaseRequest as AbstractRequest;
 use Paytic\Payments\Librapay\Helper;
 
 /**

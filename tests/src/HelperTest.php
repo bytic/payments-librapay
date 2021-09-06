@@ -2,7 +2,7 @@
 
 namespace Paytic\Payments\Librapay\Tests;
 
-use ByTIC\Payments\Gateways\Providers\Librapay\Helper;
+use Paytic\Payments\Librapay\Helper;
 use ByTIC\Payments\Tests\AbstractTest;
 
 /**
